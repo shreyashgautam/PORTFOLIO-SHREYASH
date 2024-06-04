@@ -464,28 +464,6 @@ nav div ul li a:hover{
 .project h1:hover{
     color:rgb(255, 16, 64);
 }
-
-.project .vertical{
-    height: 80px;
-    width: 1px;
-    background-color: white;
-    position: relative;
-    left:50%;
-}
-.project .hori{
-    width: 75%;
-    height: 1px;
-    background-color: white;
-    position: absolute;
-    left:12%;
-}
-.v1{
-    height: 80px;
-    width: 1px;
-    background-color: white;
-    position: relative;
-    left:183px;
-}
 #boxmain{
     display: flex;
     flex-wrap: wrap;
@@ -504,13 +482,7 @@ nav div ul li a:hover{
     background-color:rgb(255, 16, 64);
     color:#000;
 }
-.v2{
-    height: 80px;
-    width: 1px;
-    background-color: white;
-    position: relative;
-    left:585px;
-}
+
 .box2{
     height: 400px;
     width: 300px;
@@ -523,14 +495,6 @@ nav div ul li a:hover{
 .box2:hover{
     background-color:rgb(255, 16, 64);
     color:#000;
-}
-
-.v3{
-    height: 80px;
-    width: 1px;
-    background-color: white;
-    position: relative;
-    left:568px;
 }
 .box3{
     height: 400px;
