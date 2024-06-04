@@ -1,0 +1,889 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Poppins';
+}
+nav div ul{
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    
+}
+nav div ul li {
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 90px;
+}
+#contact{
+    margin-right: 20px;
+}
+nav div ul li a{
+    text-decoration: none;
+    color:gray;
+    transition: 1s;
+    
+}
+#social a i{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
+    transition: 2s;
+    color:white;
+    font-style: none;
+}
+#social{
+    position: relative;
+    left:40px;
+}
+#social a i:hover{
+    color:rgb(255, 16, 64);
+    transform:translateY(-25px);
+}
+.afteree{
+    position: relative;
+}
+.afteree::after{
+        content: '';
+        height: 2px;
+        width: 0px;
+        background-color:red; 
+        position: absolute;
+        left:0px;
+        bottom:-6px;
+        transition: 1s;
+}
+.afteree:hover::after{
+    width: 100%;
+}
+nav div ul li a:hover{
+    color:white;
+}
+.bodyclass{
+    background-image: url(bbb.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.bodyclass div{
+    text-align: right;
+    position: relative;
+    right: 100px;
+    top:50px;
+}
+.bodyclass div h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.bodyclass div p{
+    font-size: 25px;
+    transition: 1.4s;
+}
+.bodyclass div p:hover{
+    color: rgb(255, 16, 64);
+}
+#about{
+    width: 100%;
+    height: 600px;
+}
+#about h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 60px;
+    transition: 1.4s;
+}
+#about h1:hover{
+    color: rgb(255, 16, 64);
+}
+.ab{
+    display: flex;
+    margin-left: 50px;
+    
+}
+#pic{
+    margin-right: 60px;
+    
+}
+#pic img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    
+}
+#pic img:hover{
+    box-shadow:1px 1px 19px white;
+    transform:translateY(-25px);
+}
+#pic{
+    display: inline-block;
+}
+#data{
+    display: inline-block;
+    margin-right: 100px;
+}
+#see ul{
+    display: flex;  
+}
+#see ul .abb{
+    list-style: none;
+    margin-right: 70px;
+    position: relative;
+    right:30px;
+    color:rgb(135, 129, 129);
+}
+#see ul .abb::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color:red;
+    position: absolute;
+    left:0px;
+    bottom:-6px;
+    transition: 1s;
+    transition-delay: 0.1s;
+    color:white;
+    font-family: 'Poppins';
+}
+#see ul .abb:hover::after{
+    width: 100%;
+}
+#see ul .abb:hover{
+    color:rgb(255, 255, 255);
+}
+.tab-contents{
+    position: absolute;
+    left:28%;
+    top:950px;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin:0px 0px 20px 0px;
+    font-size: 14px;    
+}
+.tab-contents ul li span{
+    color:#e12762;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.activetab{
+    display: block;
+}
+.activelinks{
+    color:white;
+}
+#services div h1{
+    text-align: center;
+    font-size: 60px;
+    transition: 1.4s;
+}
+#services div h1:hover{
+    color:rgb(255, 16, 64);
+}
+.contain{
+    display: flex;
+    width: 100%;
+}
+.contain #web{
+    margin-right: 350px;
+    margin-left: 100px;
+}
+.contain #web h2{
+    text-align: center;
+}
+.contain div{
+    border:1px solid white;
+    height: 400px;
+    width: 400px;
+}
+.contain #java h2{
+    text-align: center;
+}
+#myservices h1{
+    font-size: 50px;
+    text-align: center;
+    font-style: bold;
+    margin-bottom: 40px;
+}
+#services-list{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+#web{
+    display: inline-block;
+   
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    margin-right: 470px;
+    margin-left:60px;
+}
+#web i{
+    font-size: 40px;
+    
+}
+#java{
+    display: inline-block;
+    background-color: #262626;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    top:1px;
+}
+#java i{
+    font-size: 40px;
+    position: relative;
+    top:30px;
+    left:50px;
+}
+#web{
+    position: relative;
+    top:2px;
+}
+#java h2{
+    position: relative;
+    top:40px;
+    left:45px;
+    font-size: 30px;
+}
+#myservices #web{
+    transition: 1s;
+    background-color: #262626;
+}
+#myservices #java{
+    transition: 1s;
+    background-color: #262626;
+}
+#myservices #web:hover{
+    background-color: rgb(255, 16, 64);
+    transform:translateY(-25px);
+    color:black;
+}
+#myservices #java:hover{
+    background-color: rgb(255, 16, 64);
+    transform:translateY(-25px);
+    color:black;
+}
+#java p{
+    padding-bottom:20px;
+    padding-right:20px;
+    padding-left:50px;
+}
+#web p{
+    padding:20px;
+    padding-left:50px;
+}
+#web i{
+    font-size: 40px;
+    position: relative;
+    top:35px;
+    left:50px;
+}
+#web h2{
+    position: relative;
+    top:50px;
+    left:45px;
+    font-size: 30px;
+}
+#myservices h1 b{
+    position: relative;
+    left:-30px;
+    transition: 1s;
+}
+#myservices h1 b:hover{
+    color:rgb(255, 16, 64);
+}
+#skills #skillin{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    
+}
+#skills h1 {
+    text-align: center;
+    font-size: 50px;
+    transition: 1s;
+}
+#skills h1:hover{
+    color:rgb(255, 16, 64);
+}
+#skillin #con{
+    width: 400px;
+    
+    margin-left: 73px;
+    margin-right: 516px;
+}
+#skillin div h3{
+    text-align: center;
+}
+.technical-bars{
+   
+    width :400px;
+    height:500px ;
+}
+.technical-bars .bar{
+    margin-top:20px;
+}
+.info{
+    margin-bottom:10px;
+}
+.technical-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    color:white;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.technical-bars .bar .lines{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color:white;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.technical-bars .bar .lines span{
+    height: 100%;
+    background-color: rgb(255, 16, 100);
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.lines.html span{
+    width: 95%;
+}
+.lines.css span{
+    width: 85%;
+}
+.lines.C span{
+    width: 93%;
+}
+.lines.java span{
+    width: 87%;
+}
+.lines.javas span{
+    width: 82%;
+}
+.lines.creative span{
+    width: 90%;
+}
+.lines.communicate span{
+    width: 84%;
+}
+.lines.problem span{
+    width: 87%;
+}
+.lines.teamwork span{
+    width: 94%;
+}
+.lines.Leadership span{
+    width: 92%;
+}
+.lines span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: rgba(124, 124, 124, 0.723);
+    color: white;
+    font-size: 12px ;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;   
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+.lines.html span::after{
+    content: "95%";
+}
+.lines.css span::after{
+    content: "85%";
+}
+.lines.C span::after{
+    content: "93%";
+}
+.lines.java span::after{
+    content: "80%";
+}
+.lines.javas span::after{
+    content: "82%";
+}
+.lines.creative span::after{
+    content: "90%";
+}
+.lines.communicate span::after{
+    content: "84%";
+}
+.lines.problem span::after{
+    content: "87%";
+}
+.lines.teamwork span::after{
+    content: "94%";
+}
+.lines.Leadership span::after{
+    content: "92%";
+}
+.lines span::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color:#000;  
+    top:-10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+.technical-bars .bar .info span{
+    transition: 1.5s;
+}
+.technical-bars .bar .info span:hover{
+    color:rgb(255, 16, 64);
+}
+#skillin div h3{
+    transition: 1.9s;
+}
+#skillin div h3:hover{
+    color:rgb(255, 16, 64);
+}
+.project h1 {
+    text-align: center;
+    font-size: 50px;
+    transition: 1s;
+}
+.project h1:hover{
+    color:rgb(255, 16, 64);
+}
+
+.project .vertical{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+    left:50%;
+}
+.project .hori{
+    width: 75%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left:12%;
+}
+.v1{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+    left:183px;
+}
+#boxmain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left:43px;
+    border-radius: 10px;
+    background-color: #262626;
+    transition: 2s;
+    
+}
+.box1:hover{
+    background-color:rgb(255, 16, 64);
+    color:#000;
+}
+.v2{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+    left:585px;
+}
+.box2{
+    height: 400px;
+    width: 300px;
+    background-color: #262626;
+    position: relative;
+    left:320px;
+    border-radius: 10px;
+    transition: 2s;
+}   
+.box2:hover{
+    background-color:rgb(255, 16, 64);
+    color:#000;
+}
+
+.v3{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+    left:568px;
+}
+.box3{
+    height: 400px;
+    width: 300px;
+    background-color: #262626;
+    position: relative;
+    left:573px;
+    border-radius: 10px;
+    transition: 2s;
+    
+}
+.box3:hover{
+    background-color:rgb(255, 16, 64);
+    color:#000;
+}
+.box1 h3{
+    text-align: center;
+}
+.box1 p{
+    padding: 30px 20px;
+}
+.box1 a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.box2 h3{
+    text-align: center;
+}
+.box2 p{
+    padding: 30px 20px;
+}
+.box2 a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.box3 h3{
+    text-align: center;
+}
+.box3 p{
+    padding: 30px 20px;
+}
+.box3 a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+@keyframes showText{
+100%{
+    opacity: 1;
+}
+}
+@keyframes animate {
+100%{
+    transform: scaleX(1);
+}
+}
+#element{
+    font-size: 24px;
+    transition: 1s;
+}
+.bodyclass div h1{
+    font-size: 50px;
+}
+#ee{
+    font-size: 60px;
+    transition: 1s;
+}
+#ele{
+    font-size: 25px;
+    transition: 1s;
+}
+#ele:hover{
+    color:rgb(255, 16, 64);
+}
+#element:hover{
+    color:rgb(255, 16, 64);
+}
+#foot{
+    text-align: center;
+    background-color: #262626;
+}
+footer{
+    background-color: #262626;
+}
+.fa-heart{
+    color: red;
+}
+#contactus h1{
+    text-align: center;
+    font-style: bold;
+    transition: 1s;
+}
+#contactus h1:hover{
+    color:rgb(255, 16, 64);
+}
+.btn.btn2{
+   background-color:rgb(255, 16, 64);
+    color:white;
+    transition: 1s;
+}
+.btn.btn2:hover{
+    background-color:rgb(141, 23, 46);
+}
+.contact-right form{
+    width: 60%;
+    margin-right:300px ;
+} 
+#connn{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+form input, form textarea{
+    width: 100%;
+    border:0;
+    outline:none;
+    background: #262626;
+    padding:15px;
+    margin:15px 0px;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn.btn2{
+    position: relative;
+    left:90%;
+    top:20px;
+}
+.contact-left p i{
+    color: rgb(255, 16, 64);
+    transition: 1s;
+}
+.contact-left p i:hover{
+    transform: translateY(-25px);
+}
+.contact-left p{
+    transition: 1s;
+}
+.contact-left p:hover{
+    color:rgb(255, 16, 64);
+}
+.btn2{
+    cursor: pointer;
+}
+.btn.btn2.cv{
+    position: inherit;
+}
+.checkbtn{
+    display: none;
+}
+nav input{
+    position: relative;
+    top:-100px;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 600px){
+    *{
+        font-size: 12px;
+    }
+    nav label i{
+        color:#fff;
+    }
+    .checkbtn{
+        color:#fff;
+        cursor: pointer;
+        display: block;
+        font-size: 20px;
+    }
+    .checkbtn i{
+        font-size: 40px;
+    }
+    .navi ul{
+        width: 300px;
+        height: 100vh;
+        top:80px;
+        left:0;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav .navi ul li{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        margin-right: 50px;
+        line-height: 30px;
+        text-align: center;
+    }
+    nav .navi ul li a{
+        font-size: 25px;
+    }
+    #contact{
+        position: relative;
+        left:20px;
+    }
+    .bodyclass #ee{
+        text-align: right;
+        font-size: 33px;
+    }
+    .bodyclass #element{
+        font-size: 18px;
+    }
+    .bodyclass #ele{
+        font-size: 18px;
+    }
+
+    .bodyclass{
+        position: relative;
+        left:90px;
+    }
+    .ab{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 300px;
+    }
+    #ab div{
+        display: block;
+    }
+    #about h1{
+        font-size: 50px;
+    }
+    .ab #pic img{
+        width: 70%;
+        height: 300px;
+    }
+    .ab {
+        margin:60px;
+        margin-right: 10px;
+    }
+    .ab #data p{
+        margin-top: 50px;
+        width: 70%;
+        height: 300px;
+    }
+    .ab #data #see{
+        position: relative;
+        top:340px;
+        right: 50px;
+        cursor: pointer;
+    }
+    .tab-contents{
+        position: relative;
+        top:400px;
+        left: -55px;
+    }
+    .ab #data #see li{
+        margin: 20px;
+    }
+    #myservices{
+        position: relative;
+        top:800px;
+        margin-right: 100px;
+    }
+    #myservices h1{
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        left:100px;
+    }
+    .services-list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .services-list #web{
+        display: block;
+        height: 300px;
+        width: 250px;
+        position: relative;
+        left:-10px;
+    }
+    .services-list #java{
+        position: relative;
+        height: 300px;
+        width: 250px;
+        margin-top: 40px;
+        left:47px;
+    }
+    #skills{
+        position:relative;
+        top:900px;
+    }
+    #skills h1{
+        margin-bottom: 60px;
+    }
+    #skills div{
+        width: 270px;
+    }
+    #skills .b1{
+        position: relative;
+        left:70px;
+    }
+    #skills h3{
+        position: relative;
+        left:30px;
+    }
+    #skills #skillin #con h3{
+        position: relative;
+        left:-30px;
+    }
+    .project{
+        position: relative; 
+        top:1400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .project h1{
+        margin-bottom: 50px;
+    }
+    .project .vertical{
+        height: 0px;
+        width: 0px;
+        background-color: white;
+        position: relative;
+        left:50%;
+    }
+    .project .hori{
+        width: 0px;
+        height: 0px;
+        background-color: white;
+        position: absolute;
+        left:12%;
+    }
+    
+    .v1{
+        height: 0px;
+        width: 0px;
+        background-color: white;
+        position: relative;
+        left:183px;
+    }
+    .v2{
+        height: 0px;
+        width: 0px;
+        background-color: white;
+        position: relative;
+        left:183px;
+    }
+    .v3{
+        height: 0px;
+        width: 0px;
+        background-color: white;
+        position: relative;
+        left:183px;
+    }
+    
+}
